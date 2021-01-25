@@ -7,7 +7,7 @@ name: CI
       - master
 
 env:
-  DOCKER_CONTAINER: frankjoshua/ros-master
+  DOCKER_CONTAINER: frankjoshua/ros-ydlidar-x4
 
 jobs:
   docker:
