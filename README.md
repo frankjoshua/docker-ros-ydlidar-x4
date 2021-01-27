@@ -11,6 +11,7 @@ docker run -it \
     --network="host" \
     --env="ROS_IP=$ROS_IP" \
     --env="ROS_MASTER_URI=$ROS_MASTER_URI" \
+    --device="/dev/ttyUSB0:/dev/ydlidar" \
     frankjoshua/ros-ydlidar-x4
 ```
 
